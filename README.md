@@ -1,6 +1,11 @@
 # Custom YOLOv5 for Car Detection using COCO Dataset
 This project is a custom-trained YOLOv5 model for car detection using transfer learning with the first 10 layers frozen, trained on the COCO 2017 dataset. It includes scripts for converting the dataset annotations to YOLO format, training the model, and evaluating results on test images. This project is licensed under the GNU General Public License v3.0 (GPLv3).
 ### Progess Tracking ( Project Milestone)
+I am also still working on this repo and notebooks to make it modular to use as you wish, and just need to change some code and it will work (but for now it is not complete)  
+I have uploaed all my result from my training in the folder exp8, This folder contains my trainined model and all the metric results from the training and validation  
+As of now my `project_milestone.ipynb` was run and some test inference on validation images and test images and they show up.  
+### For now if you try to run this file. it will not work since I do not have the data set in this repo since it is big. But towrards the end of the file all my result and  inference testing is shown.  
+Apart from that you can take a look at all the result serperatly in the exp8 folder and my weight/model in the weights folder
 The `project_milestone.ipynb` serves as the primary reference for this project milestone. It contains:
 - Dataset preparation steps
 - Conversion of COCO to YOLO annotations
@@ -27,6 +32,8 @@ To review my progress, open the notebook
 #### Requirements
 - Python >= 3.7
 - CUDA-enabled GPU (optional but recommended for training)
+- Clone yolov5 into the project at the root level
+  `git clone https://github.com/ultralytics/yolov5`
 - Required Python libraries:
   These needs be run in the yolov5 directory
   - `pip install -r requirements.txt`
@@ -89,9 +96,8 @@ To review my progress, open the notebook
 ```
 project/
 │
-├── notebook.ipynb          # Jupyter Notebook
+├── project_milestone.ipynb          # Jupyter Notebook
 ├── coco_car.yaml           # Dataset configuration for YOLOv5
-├── runs/                   # Training results and weights
 ├── data/
 │   ├── coco/
 │       ├── images/         # Train and validation images
