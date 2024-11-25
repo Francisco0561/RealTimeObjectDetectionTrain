@@ -1,5 +1,8 @@
 # Car Detection using YOLOv5
 This repository contains a project focused on fine-tuning the YOLOv5 model for car detection using the COCO dataset. The model has been trained on car-specific annotations and demonstrates its performance through percision, recall, and mAP metrics
+# This script is part of a project licensed under the GNU General Public License v3.0 (GPL-3.0).
+# For details, see the LICENSE file or visit https://www.gnu.org/licenses/gpl-3.0.txt
+
 
 ### Progess Tracking ( Project Milestone)
 The `project_milestone.ipynb` serves as the primary reference for this project milestone. It contains:
@@ -86,3 +89,12 @@ project/
 └── .gitignore              # To exclude unnecessary files
 
 ```
+---
+This project is licensed under the GNU General Public License v3.0 (GPL-3.0).
+
+Attribution:
+- [YOLOv5](https://github.com/ultralytics/yolov5) is used under the GPL-3.0 license.
+- [COCO Dataset](https://cocodataset.org) is used under the CC BY 4.0 license.
+
+You are free to use, modify, and distribute this project under the terms of the GPL-3.0 license.
+
